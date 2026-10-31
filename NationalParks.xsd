@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- NationalParks.xsd : schema for CSE445 Assignment 4 (Figure 1 structure) -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="https://arasugit20.github.io/cse445-a4"
+           targetNamespace="https://arasugit20.github.io/cse445-a4"
+           elementFormDefault="qualified" attributeFormDefault="unqualified">
 
   <!-- Root element: a directory of one or more national parks -->
   <xs:element name="NationalParks">
