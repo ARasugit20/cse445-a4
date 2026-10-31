@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- NationalParks.xml : instance of NationalParks.xsd (11 parks) -->
+<!-- NationalParks.xml : instance of NationalParks.xsd (13 parks) -->
 <NationalParks>
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
@@ -114,6 +114,29 @@
       <City>Twentynine Palms</City>
       <State>CA</State>
       <Zip>92277</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.8">
+    <Name>Arches</Name>
+    <Phone>435-719-2299</Phone>
+    <Address NearestAirport="Moab">
+      <Number>2282</Number>
+      <Street>Resource Blvd</Street>
+      <City>Moab</City>
+      <State>UT</State>
+      <Zip>84532</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark>
+    <Name>Bryce Canyon</Name>
+    <Phone>435-834-5322</Phone>
+    <Phone>435-834-4747</Phone>
+    <Address NearestAirport="Cedar City">
+      <Number>17</Number>
+      <Street>Utah Hwy 63</Street>
+      <City>Bryce</City>
+      <State>UT</State>
+      <Zip>84764</Zip>
     </Address>
   </NationalPark>
   <NationalPark Rating="4.7">

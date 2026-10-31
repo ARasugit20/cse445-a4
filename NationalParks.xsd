@@ -6,15 +6,12 @@
   <xs:element name="NationalParks">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="NationalPark" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="NationalPark" type="NationalParkType" minOccurs="1" maxOccurs="unbounded"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
 
-  <!-- One national park (declared globally so each park can still be validated even if the root is wrong) -->
-  <xs:element name="NationalPark" type="NationalParkType"/>
-
-  <!-- National park content: Name, one or more Phone, Address (left-to-right order) -->
+  <!-- One national park: Name, one or more Phone, Address (left-to-right order) -->
   <xs:complexType name="NationalParkType">
     <xs:sequence>
       <xs:element name="Name"    type="xs:string"/>
